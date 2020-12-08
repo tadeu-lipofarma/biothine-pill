@@ -708,8 +708,14 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-siwDTUUVVk .navbar-dropdown {
-  position: relative !important;
+.cid-siwDTUUVVk {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
+}
+.cid-siwDTUUVVk nav.navbar {
+  position: fixed;
 }
 .cid-siwDTUUVVk .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1025,6 +1031,7 @@ a {
 }
 .cid-siwDTUUVVk .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-siwDTUUVVk a.nav-link {
   display: flex;
